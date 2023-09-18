@@ -1,0 +1,34 @@
+{
+  "tests": [  
+    {
+      "name": "Calculate GAA Points",
+      "setup": "",
+      "run": "mvn -q -DskipTests=false -Dtest=IntroductionTest#calcGaaPoints test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "Sum Array",
+      "setup": "",
+      "run": "mvn -q -DskipTests=false -Dtest=IntroductionTest#sum test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 3
+    },
+    {
+      "name": "Starts With Consonant",
+      "setup": "",
+      "run": "mvn -q -DskipTests=false -Dtest=IntroductionTest#startsWithConsonant test",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 2,
+      "points": 4
+    }
+  ]
+}
